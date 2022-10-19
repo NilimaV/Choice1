@@ -31,18 +31,18 @@
 				<extensions>true</extensions>
 			</plugin>
 			<plugin>
-<groupId>org.mule.tools.maven</groupId>
+			<groupId>org.mule.tools.maven</groupId>
 <artifactId>mule-maven-plugin</artifactId>
 <version>3.6.3</version>
 <extensions>true</extensions>
-<configuration>
+       <configuration>
             <cloudHubDeployment>
                     <uri>https://www.anypoint.mulesoft.com</uri>
                     <muleVersion>4.4.0</muleVersion>
   <username>VNilima</username>
   <password>Aarush02</password>
                         <environment>Sandbox</environment>
-                        <applicationName>mysecond</applicationName>
+                        <applicationName>Choice1</applicationName>
                         <businessGroup>DOW</businessGroup>
                         <workerType>MICRO</workerType>
                         <workers>1</workers>
