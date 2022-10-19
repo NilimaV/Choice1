@@ -30,6 +30,27 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 			</plugin>
+			<plugin>
+<groupId>org.mule.tools.maven</groupId>
+<artifactId>mule-maven-plugin</artifactId>
+<version>3.6.3</version>
+<extensions>true</extensions>
+<configuration>
+            <cloudHubDeployment>
+                    <uri>https://www.anypoint.mulesoft.com</uri>
+                    <muleVersion>4.4.0</muleVersion>
+  <username>VNilima</username>
+  <password>Aarush02</password>
+                        <environment>Sandbox</environment>
+                        <applicationName>mysecond</applicationName>
+                        <businessGroup>Training</businessGroup>
+                        <workerType>MICRO</workerType>
+                        <workers>1</workers>
+                        <objectStoreV2>true</objectStoreV2>
+  </cloudHubDeployment>
+               </configuration>
+</plugin>
+			
 		</plugins>
 	</build>
 
@@ -74,5 +95,5 @@
 			</snapshots>
 		</pluginRepository>
 	</pluginRepositories>
-
+	
 </project>
